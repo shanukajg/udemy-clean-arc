@@ -1,11 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{8F2AC493-C410-47BF-A76B-FAD0DE734342}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{6BAEF632-2696-41AB-A94C-20CD3F603363}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC", "{3EC57BDD-F4D0-4C29-9041-C812400E01C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanArch.UI.Mvc", "{3ECA8980-52AD-4EBA-A9DD-24387D7AF82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{59680A50-70C1-4177-8F60-40CDAD342D2E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59680A50-70C1-4177-8F60-40CDAD342D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59680A50-70C1-4177-8F60-40CDAD342D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59680A50-70C1-4177-8F60-40CDAD342D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59680A50-70C1-4177-8F60-40CDAD342D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59680A50-70C1-4177-8F60-40CDAD342D2E} = {3ECA8980-52AD-4EBA-A9DD-24387D7AF82A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37847324-E9C2-468F-8EE5-A48669E22305}
